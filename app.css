@@ -1,0 +1,64 @@
+#increasefont {
+  padding: 14px;
+  margin-left: 20px;
+  background-color: #fff;
+  border: none;
+  color:#000;
+  text-decoration:none;
+}
+
+#increasefont:hover, #decreasefont:hover {
+  background-color: #0073e5;
+  color: white;
+}
+
+#increasefont:focus, #decreasefont:focus {
+  outline: 0;
+}
+
+#decreasefont {
+  padding: 14px;
+  margin-right: 18px;
+  border: none;
+  background-color: #fff;
+  color:#000;
+  text-decoration:none;
+}
+
+#fontbuttons {
+  font-size: 18px;
+  background-color: #fff;
+  border-style: solid;
+  border-width: thin;
+}
+
+#fontbuttons.top-right {
+  position: fixed;
+  top: 4em;
+  right: 1em;
+}
+
+#fontbuttons.top-left {
+  position: fixed;
+  top: 4em;
+  left: 1em;
+}
+
+#fontbuttons.bottom-left {
+  position: fixed; 
+  bottom: 2em; 
+  left: 1em; 
+}
+
+#fontbuttons.bottom-right {
+  position: fixed; 
+  bottom: 2em; 
+  right: 1em;
+}
+
+#fonttext { 
+  color: #000;
+  font-size: 16px;
+}
+
+
